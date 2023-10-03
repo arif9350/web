@@ -1,0 +1,432 @@
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../fonts/Roboto/Roboto-m.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Sanspro-Black;
+    src: url(../fonts/sanspro/SourceSansPro-Black.ttf);
+}
+@font-face {
+    font-family: sanspro-bold;
+    src: url(../fonts/sanspro/SourceSansPro-Bold.ttf);
+}
+@font-face {
+    font-family: sanspro-smei-bold;
+    src: url(../fonts/sanspro/SourceSansPro-SemiBold.ttf);
+}
+@font-face {
+    font-family: sanspro-Regular;
+    src: url(../fonts/sanspro/SourceSansPro-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto-light;
+}
+
+
+/* header */
+header{
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+header::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index: -1;
+}
+.navbar{
+    padding: 30px !important;
+}
+.navbar .nav-link{
+    margin:0 18px;
+    color: #fff !important;
+    font-size: 16px;
+    font-family: Roboto-Medium;
+    text-decoration: none;
+}
+.navbar .nav-link:hover{
+    text-decoration: 1px underline #fb414e;
+    transition: .6s;
+}
+.header-btn{
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid #fb414e;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    background-color: #fb414e;
+    color: #fff;
+}
+.outline-btn{
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 2px solid #fb414e;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    background-color: transparent;
+    color: #fff;
+    transition: background-color .6s;
+}
+.outline-btn:hover{
+    background-color: #fb414e;
+}
+
+.banner-text{
+    padding: 110px 0;
+}
+.banner-text h1{
+    font-size: 60px;
+    font-family: Sanspro-Black;
+}
+.banner-text p{
+    font-size: 16px;
+}
+/* header */
+
+/* services short */
+.services-short-area{
+    position: relative;
+    top: -65px;
+    z-index: 10;
+}
+.services-short-area h5{
+    font-family: Roboto-Medium;
+    font-size: 20px;
+}
+.short-service-item1{
+    background-color: #fb414e;
+    padding: 60px 50px;
+}
+.short-service-item1 h5::after{
+    content: '';
+    position: relative;
+    width: 50px;
+    height: 2px;
+    display: block;
+    background-color: #fff;
+    margin: 30px 0;
+}
+.service-background{
+    background-color: #202b30;
+}
+
+/* services short */
+
+/* Business plan */
+#business-plan{
+    margin: 60px;
+    background-color:  #202b30;
+    padding: 100px;
+}
+.business-contents{
+    text-align: left;
+}
+.business-contents h2{
+    font-family: sanspro-bold;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+.business-contents p{
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+.box-btn{
+    text-decoration: none;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    transition: background-color .6s;
+}
+.box-btn:hover{
+    background-color: #fb414e;
+}
+
+.business-gallery{
+    text-align: right;
+}
+
+/* Business plan */
+
+/* Service */
+#services{
+    margin: 60px;
+    background-color: #f8f8f8;
+    padding: 100px;
+}
+.service-contents p{
+    font-size: 16px;
+    color: #6f6f6f;
+}
+.service-heading{
+    margin-left: 30px;
+}
+.service-contents h5{
+    font-family: sanspro-smei-bold;
+    font-size: 20px;
+}
+.service-heading h4{
+    font-family: sanspro-bold;
+    font-size: 48px;
+    margin-bottom: 45px;
+}
+.service-heading p{
+    margin-top: 30px;
+    font-size: 16px;
+    color: #6f6f6f;
+}
+/* Service */
+
+/* Portfolio */
+#works{
+    margin: 60px;
+}
+.menu-bar{
+    margin: auto;
+    text-align: center;
+}
+.menu-bar ul li{
+    margin-bottom: 15px;
+}
+.works-img{
+    width: 100%;
+    height: auto;
+}
+.menu-bar li{
+    list-style: none;
+    display: block;
+    display: inline-block;
+    margin:0 20px;
+}
+.menu-bar li a{
+    text-decoration: none;
+    color: #6f6f6f;
+    font-family: sanspro-Regular;
+    font-size: 16px;
+}
+.menu-bar li a:hover{
+    text-decoration: underline #202b30;
+    transition: .5s;
+}
+/* Portfolio */
+
+/* Clients */
+#clients{
+    margin: 60px;
+}
+.clients-contents{
+
+}
+.clients-contents h3{
+    font-family: sanspro-bold;
+    font-size: 48px;
+    margin-bottom: 45px;
+}
+.clients-contents p{
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.clients-btn{
+    text-decoration: none;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    padding: 10px 30px;
+    border: 2px solid #222;
+    background-color: transparent;
+    color: black;
+    transition: all .6s;
+}
+.clients-btn:hover{
+    background-color: #222;
+    color: #fff;
+}
+.clients-videos{
+    background-image:url(../img/videos.jpg);
+    position: relative;
+    z-index: 2;
+}
+.clients-videos::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+/* Clients */
+
+/* Handcraft */
+#handcraft{
+    margin: 60px;
+    background-image: url(../img/banner-3.jpg);
+    background-size: cover;
+    padding: 110px 0;
+}
+.handcraft-contents{
+
+}
+.handcraft-contents h3{
+    font-family: sanspro-bold;
+    font-size: 48px;
+}
+.handcraft-contents p{
+    font-size: 16px;
+    margin: 40px 0;
+    color: #6f6f6f;
+}
+
+.handcraft-mini h5{
+    margin: 15px 0px;
+    font-family: sanspro-Regular;
+    font-size: 20px;
+}
+.handcraft-mini p{
+    font-size: 16px;
+    color: #6f6f6f;
+}
+
+/* Handcraft */
+
+/* Contact */
+#contact{
+    margin: 60px;
+}
+.contact-contents{
+    text-align: right;
+}
+.contact-contents h1{
+    font-family: sanspro-bold;
+    font-size: 60px;
+    margin-left: 60px;
+}
+.contact-contents p{
+    font-size: 16px;
+    margin: 30px 0;
+    margin-left: 90px;
+}
+.contact-form{
+    margin-top: 18px;
+}
+.contact-form input{
+    border-radius: 0;
+    border: 1px solid #000;
+    padding: ;
+}
+.contact-form select{
+    border-radius: 0;
+    border: 1px solid #000;
+}
+.contact-form textarea{
+    resize: none;
+    border-radius: 0;
+    border: 1px solid #000;
+}
+.contact-btn{
+    background-color: #fb414e !important;
+    color: #fff !important;
+    padding: 10px 0 !important;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+}
+.contact-btn:hover{
+    background-color: #d14d56 !important;
+}
+/* Contact */
+
+/* Footer */
+#footer{
+    background-color: #202b30;
+    padding: 70px;
+    color: white;
+}
+.footer-contact{
+    margin: 80px 0;
+}
+.footer-contact :nth-child(1){
+    font-family: Roboto-Medium;
+    font-size: 16px;
+}
+.footer-contact :nth-child(2){
+    color: #edeaea;
+}
+.social-icon ul{
+    padding: 0;
+}
+.social-icon li{
+    list-style: none;
+    display: block;
+    display: inline-block;
+    margin-right: 15px;
+}
+.social-icon li a{
+    text-decoration: none;
+    color: #6f6f6f;
+    font-size: 15px;
+}
+.footer-right{
+    text-align: right;
+}
+.footer-subs{
+    margin: 80px 0;
+}
+.footer-subs :nth-child(1){
+    font-family: Roboto-Medium;
+    font-size: 16px;
+}
+.footer-menu ul li{
+    list-style: none;
+    display: block;
+    display: inline-block;
+}
+.footer-menu ul li a:last-child{
+    margin-right: 0;
+}
+.footer-menu ul li a{
+    margin:0 38px;
+    color: #fff !important;
+    font-family: Roboto-Medium;
+    font-size: 16px;
+    text-decoration: none;
+}
+.footer-menu ul li a:hover{
+    text-decoration: 1px underline #fb414e;
+    transition: .6s;
+}
+.footer-subs button{
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    background-color: #fb414e;
+    border-radius: 0;
+    color: #fff;
+    border: none;
+    padding: 0 35px;
+}
+.footer-subs button:hover{
+    background-color: #fb414e;
+}
+.footer-copyright p{
+    font-size: 14px;
+    color: #878787;
+}

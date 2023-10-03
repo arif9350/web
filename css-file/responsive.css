@@ -1,0 +1,200 @@
+
+/* small Phone */
+@media screen and (max-width:600px){
+
+    header{
+        background-image: url(../img/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        z-index: 2;
+    }
+    header::after{
+        content: '';
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.6);
+        z-index: -1;
+    }
+    
+    .banner-text{
+        padding: 20px 0;
+        margin-bottom: 30px;
+    }
+    .banner-text h1{
+        font-size: 30px;
+    }
+    .banner-text p{
+        font-size: 14px;
+    }
+    #business-plan{
+        margin: auto;
+        background-color:  #202b30;
+        padding: 50px;
+    }
+    .business-contents{
+        text-align: center;
+    }
+    .business-contents h2{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .business-contents p{
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+
+    .business-gallery{
+        margin-top: 50px;
+    }
+    .gallery-2{
+        margin-top: 50px;
+    }
+
+}
+/* small Phone */
+
+/* Large Phone */
+@media screen and (max-width:768px){
+
+    header{
+        background-image: url(../img/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        z-index: 2;
+    }
+    header::after{
+        content: '';
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.6);
+        z-index: -1;
+    }
+
+    #business-plan{
+        margin: auto;
+        background-color:  #202b30;
+        padding: 50px;
+    }
+    .business-contents{
+        text-align: center;
+    }
+    .business-contents h2{
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+    .business-contents p{
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+
+    .business-gallery{
+        margin-top: 50px;
+    }
+    .gallery-2{
+        margin-top: 50px;
+    }
+
+    /* Service */
+#services{
+    margin: auto;
+    background-color: #f8f8f8;
+    padding: 50px;
+}
+.service-contents{
+    text-align: center;
+}
+.service-contents p{
+    text-align: center;
+    font-size: 15px;
+    color: #6f6f6f;
+    line-height: 23px;
+}
+.service-heading{
+    text-align: center;
+}
+.service-heading h3{
+    margin-left: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.service-heading p{
+    margin-right: 20px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    color: #6f6f6f;
+}
+/* Service */
+
+
+/* Contact */
+.contact-contents{
+    text-align: center;
+}
+
+/* Contact */
+}
+/* Large Phone */
+
+
+/* Tablet */
+@media screen and (max-width:991px){
+
+    header{
+        background-image: url(../img/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        z-index: 2;
+    }
+    header::after{
+        content: '';
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.6);
+        z-index: -1;
+    }
+
+    #business-plan{
+        margin: 0px auto;
+        background-color:  #202b30;
+        padding: 60px;
+    }
+    .business-contents{
+        text-align: center;
+    }
+    .business-contents h2{
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    .business-contents p{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .business-gallery{
+        margin-top: 70px;
+        margin-right: 20px;
+    }
+    .gallery-2{
+        margin-top: 70px;
+       
+    }
+}
+/* Tablet */
